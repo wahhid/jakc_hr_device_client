@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<openerp>
+    <data>
+   		<!-- HR/CONFIG -->				
+		<record id="view_hr_device_client_human_resources_configuration_inherit" model="ir.ui.view">
+			<field name="name">hr.device.client.human.resources.cinfiguration.inherit</field>
+		    <field name="model">hr.config.settings</field>
+		    <field name="inherit_id" ref="hr.view_human_resources_configuration"/>					
+		    <field name="arch" type="xml">
+		    	<form position="inside">
+			    	<group name="device_client_grp">
+	                        <label for="id" string="Device Client"/>
+	                        <div>
+	                            <div>
+	                            	<label for="hrms_server"/>
+	                                <field name="hrms_server" class="oe_inline"/>
+	                            </div>
+	                        </div>
+	               	</group>
+		    	</form>
+		    	 				
+		    </field>
+		</record>                  
+    </data>
+</openerp>

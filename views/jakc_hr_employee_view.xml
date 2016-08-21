@@ -9,7 +9,7 @@
 		            <field name="inherit_id" ref="hr.view_employee_form"/>					
 		            <field name="arch" type="xml">
 		                <notebook position="inside">
-		                    <page string="Device Information">
+		                    <page string="Device Client Information">
 		                    	<group>
 		                    		<field name="finger_client_01"/>		                    		
 		                    		<field name="finger_client_02"/>

@@ -1,2 +1,3 @@
 import jakc_hr_attendance
 import jakc_hr_employee
+import jakc_hr_config_settings

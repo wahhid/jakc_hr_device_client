@@ -26,6 +26,7 @@ Features:
     'data': [
         'views/jakc_hr_attendance_view.xml',
         'views/jakc_hr_employee_view.xml',
+        'views/jakc_hr_config_settings_view.xml',
     ],    
     "installable": True,
     "application": True,
