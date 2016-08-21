@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<openerp>
+	<data>	
+		<record id="view_hr_device_client_attendance_from_inherit" model="ir.ui.view">
+			<field name="name">hr.device.client.attendance.form.inherit</field>
+			<field name="model">hr.attendance</field>
+			<field name="inherit_id" ref="hr_attendance.view_attendance_form"/>
+			<field name="arch" type="xml">
+				<field name="action_desc" position="after">
+					<field name="iface_sync"/>
+				</field>
+			</field>
+		</record>
+		
+		<record id="view_hr_device_client_attendance_tree_inherit" model="ir.ui.view">
+			<field name="name">hr.device.client.attendance.tree.inherit</field>
+			<field name="model">hr.attendance</field>
+			<field name="inherit_id" ref="hr_attendance.view_attendance_tree"/>
+			<field name="arch" type="xml">
+				<field name="action_desc" position="after">
+					<field name="iface_sync"/>
+				</field>
+			</field>
+		</record>
+	</data>
+</openerp>

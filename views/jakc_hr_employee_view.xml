@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<openerp>
+    <data>
+        <!-- HR/EMPLOYEE -->				
+		        <record id="view_hr_device_client_employee_form_inherit" model="ir.ui.view">
+		            <field name="name">hr.device.client.employee.form.inherit</field>
+		            <field name="model">hr.employee</field>
+		            <field name="type">form</field>
+		            <field name="inherit_id" ref="hr.view_employee_form"/>					
+		            <field name="arch" type="xml">
+		                <notebook position="inside">
+		                    <page string="Device Information">
+		                    	<group>
+		                    		<field name="finger_client_01"/>		                    		
+		                    		<field name="finger_client_02"/>
+		                    	</group>		                    			                    
+		                    </page>
+		                </notebook>			
+		            </field>
+		        </record>                                                                                                                                                                                                                                                                                              	
+    </data>                
+</openerp>
